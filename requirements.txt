@@ -3,3 +3,4 @@ fastapi
 numpy
 typing
 Pillow
+jinja2
