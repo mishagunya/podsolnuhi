@@ -5,6 +5,8 @@ jobs: # список работ, которые будут производит�
  checks: # имя работы сhecks
   runs-on: ubuntu-latest # на какой машине делать работы (можно задать матрицы машин, допустимы Windows и Mac OS)
   steps:
+   - name: PIPins
+     run: pip install --upgrade pip
    - name: Begin
      uses: actions/checkout@v3
    - name: Echo hello
