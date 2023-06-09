@@ -1,0 +1,7 @@
+Flask
+Gunicorn
+fastapi
+numpy
+io
+typing
+hashlib
