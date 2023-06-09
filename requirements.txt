@@ -2,4 +2,4 @@ Gunicorn
 fastapi
 numpy
 typing
-
+PIL
